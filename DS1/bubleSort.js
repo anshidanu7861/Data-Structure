@@ -1,4 +1,4 @@
-function bubleSort(arr) {
+function buble(arr) {
     for(let i = 0; i < arr.length; i++) {
         for(let j = 0; j < arr.length; j++) {
             if(arr[i] < arr[j]) {
@@ -8,7 +8,8 @@ function bubleSort(arr) {
             }
         }
     }
+
     return arr
 }
 
-console.log(bubleSort([6,7,5,4,3,2,8,1]));
+console.log(buble([4,3,2,1]));
